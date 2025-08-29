@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi To-Do App</title>
+  <link rel="stylesheet" href="styles.css"> </head>
+<body>
+  <header>
+    <h1>📋 Mi lista de tareas</h1>
+  </header>
+
+  <main>
+    <section class="task-list" id="pending">
+      <h2>Pendientes</h2>
+      <ul class="tasks">
+        <li class="task-item">
+          <div class="task-details">
+            <h3>Acabar Programación Avanzada.</h3>
+            <p>Necesito acabar todos los temas.</p>
+          </div>
+          <div class="task-actions">
+            <button class="complete-btn">✅</button>
+            <button class="delete-btn">🗑️</button>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="task-list" id="in-progress">
+      <h2>En Proceso</h2>
+      <ul class="tasks">
+        <li class="task-item">
+          <div class="task-details">
+            <h3>Evaluar a estudiantes.</h3>
+            <p>Le están echando ganas.</p>
+          </div>
+          <div class="task-actions">
+            <button class="complete-btn">✅</button>
+            <button class="delete-btn">🗑️</button>
+          </div>
+        </li>
+      </ul>
+    </section>
+    
+    <section class="task-list" id="completed">
+      <h2>Finalizado</h2>
+      <ul class="tasks">
+        <li class="task-item completed">
+          <div class="task-details">
+            <h3>Desayunar.</h3>
+            <p>Si tan solo alguien me invitara a desayunar. 🥹</p>
+          </div>
+          <div class="task-actions">
+            <button class="delete-btn">🗑️</button>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>
